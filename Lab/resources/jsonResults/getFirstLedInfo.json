@@ -1,0 +1,21 @@
+{
+	"logicalName": "",
+	"advertisedValue": "ffffff",
+	"rgbColor": 16777215,
+	"hslColor": 255,
+	"rgbMove": {
+			"moving": 0,
+			"target": -2114912256,
+			"ms": 11
+	},
+	"hslMove": {
+			"moving": 0,
+			"target": -2115960832,
+			"ms": 11
+	},
+	"rgbColorAtPowerOn": 0,
+	"blinkSeqSize": 0,
+	"blinkSeqMaxSize": 32,
+	"blinkSeqSignature": 0,
+	"command": ""
+}

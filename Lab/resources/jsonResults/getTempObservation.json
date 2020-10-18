@@ -1,0 +1,15 @@
+{
+	"productName": "Yocto-Meteo-V2",
+	"serialNumber": "METEOMK2-F5AD2",
+	"logicalName": "",
+	"productId": 132,
+	"productRelease": 1,
+	"firmwareRelease": "37128",
+	"persistentSettings": 0,
+	"luminosity": 50,
+	"beacon": 0,
+	"upTime": 268654322,
+	"usbCurrent": 22,
+	"rebootCountdown": 0,
+	"userVar": 0
+}

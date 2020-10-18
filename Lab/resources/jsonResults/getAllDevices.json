@@ -1,0 +1,286 @@
+[
+	{
+			"module": {
+				"productName": "YoctoHub-Ethernet",
+				"serialNumber": "YHUBETH1-D0EB8",
+				"logicalName": "",
+				"productId": 14,
+				"productRelease": 3,
+				"firmwareRelease": "39675",
+				"persistentSettings": 2,
+				"luminosity": 51,
+				"beacon": 0,
+				"upTime": 267933947,
+				"usbCurrent": 293,
+				"rebootCountdown": 0,
+				"userVar": 0
+			},
+			"network": {
+				"logicalName": "yoctohub",
+				"advertisedValue": "LAN_OK",
+				"readiness": 3,
+				"macAddress": "D8:80:39:12:58:3D",
+				"ipAddress": "169.254.14.184",
+				"subnetMask": "255.255.0.0",
+				"router": "169.254.0.1",
+				"ipConfig": "STATIC:169.254.14.184/16/169.254.0.1",
+				"primaryDNS": "0.0.0.0",
+				"secondaryDNS": "0.0.0.0",
+				"ntpServer": "0.0.0.0",
+				"userPassword": "",
+				"adminPassword": "",
+				"httpPort": 80,
+				"defaultPage": "",
+				"discoverable": 1,
+				"wwwWatchdogDelay": 0,
+				"callbackUrl": "",
+				"callbackMethod": 0,
+				"callbackEncoding": 0,
+				"callbackCredentials": ":",
+				"callbackInitialDelay": 3,
+				"callbackSchedule": "after 3s/600s",
+				"callbackMinDelay": 3,
+				"callbackMaxDelay": 600,
+				"poeCurrent": 0
+			},
+			"files": {
+				"logicalName": "",
+				"advertisedValue": "0",
+				"filesCount": 0,
+				"freeSpace": 3440640
+			},
+			"hubPort1": {
+				"logicalName": "METEOMK2-F5AD2",
+				"advertisedValue": "RUN",
+				"enabled": 1,
+				"portState": 3,
+				"baudRate": 1000
+			},
+			"hubPort2": {
+				"logicalName": "YD128X64-10CC92",
+				"advertisedValue": "RUN",
+				"enabled": 1,
+				"portState": 3,
+				"baudRate": 1000
+			},
+			"hubPort3": {
+				"logicalName": "YRGBLED2-1082CB",
+				"advertisedValue": "RUN",
+				"enabled": 1,
+				"portState": 3,
+				"baudRate": 1000
+			},
+			"services": {
+					"whitePages": [
+		  					{
+								"serialNumber": "YHUBETH1-D0EB8",
+								"logicalName": "",
+								"productName": "YoctoHub-Ethernet",
+								"productId": 14,
+								"networkUrl": "/api",
+								"beacon": 0,
+								"index": 0
+							},
+		  					{
+								"serialNumber": "METEOMK2-F5AD2",
+								"logicalName": "",
+								"productName": "Yocto-Meteo-V2",
+								"productId": 132,
+								"networkUrl": "/bySerial/METEOMK2-F5AD2/api",
+								"beacon": 0,
+								"index": 1
+							},
+							{
+								"serialNumber": "YD128X64-10CC92",
+								"logicalName": "",
+								"productName": "Yocto-MaxiDisplay",
+								"productId": 48,
+								"networkUrl": "/bySerial/YD128X64-10CC92/api",
+								"beacon": 0,
+								"index": 2
+							},
+		  					{
+								"serialNumber": "YRGBLED2-1082CB",
+								"logicalName": "",
+								"productName": "Yocto-Color-V2",
+								"productId": 101,
+								"networkUrl": "/bySerial/YRGBLED2-1082CB/api",
+								"beacon": 0,
+								"index": 3
+							}
+					],
+					"yellowPages": {
+						"HubPort": [
+			  							{
+												"baseType": 0,
+												"hardwareId": "YHUBETH1-D0EB8.hubPort3",
+												"logicalName": "YRGBLED2-1082CB",
+												"advertisedValue": "RUN",
+												"index": 0
+										},
+			  							{
+												"baseType": 0,
+												"hardwareId": "YHUBETH1-D0EB8.hubPort2",
+												"logicalName": "YD128X64-10CC92",
+												"advertisedValue": "RUN",
+												"index": 1
+										},
+			  							{
+												"baseType": 0,
+												"hardwareId": "YHUBETH1-D0EB8.hubPort1",
+												"logicalName": "METEOMK2-F5AD2",
+												"advertisedValue": "RUN",
+												"index": 2
+										}
+								],
+								"Files": [
+			  							{
+												"baseType": 0,
+												"hardwareId": "YHUBETH1-D0EB8.files",
+												"logicalName": "",
+												"advertisedValue": "0",
+												"index": 3
+										},
+			  							{
+												"baseType": 0,
+												"hardwareId": "YD128X64-10CC92.files",
+												"logicalName": "",
+												"advertisedValue": "0",
+												"index": 6
+										},
+			  							{
+												"baseType": 0,
+												"hardwareId": "YRGBLED2-1082CB.files",
+												"logicalName": "",
+												"advertisedValue": "0",
+												"index": 0
+										}
+								],
+								"Network": [
+			  							{
+												"baseType": 0,
+												"hardwareId": "YHUBETH1-D0EB8.network",
+												"logicalName": "yoctohub",
+												"advertisedValue": "LAN_OK",
+												"index": 4
+										}
+								],
+								"DataLogger": [
+			  							{
+												"baseType": 0,
+												"hardwareId": "METEOMK2-F5AD2.dataLogger",
+												"logicalName": "",
+												"advertisedValue": "OFF",
+												"index": 0
+										}
+								],
+								"Temperature": [
+			  							{
+												"baseType": 1,
+												"hardwareId": "METEOMK2-F5AD2.temperature",
+												"logicalName": "",
+												"advertisedValue": "30.44",
+												"index": 1
+										}
+								],
+								"Pressure": [
+			  							{
+												"baseType": 1,
+												"hardwareId": "METEOMK2-F5AD2.pressure",
+												"logicalName": "",
+												"advertisedValue": "1014.8",
+												"index": 2
+										}
+								],
+								"Humidity": [
+			  							{
+												"baseType": 1,
+												"hardwareId": "METEOMK2-F5AD2.humidity",
+												"logicalName": "",
+												"advertisedValue": "46.3",
+												"index": 3
+										}
+								],
+								"AnButton": [
+			  							{
+												"baseType": 0,
+												"hardwareId": "YD128X64-10CC92.anButton6",
+												"logicalName": "",
+												"advertisedValue": "997",
+												"index": 0
+										},
+			  							{
+												"baseType": 0,
+												"hardwareId": "YD128X64-10CC92.anButton5",
+												"logicalName": "",
+												"advertisedValue": "997",
+												"index": 1
+										},
+			  							{
+												"baseType": 0,
+												"hardwareId": "YD128X64-10CC92.anButton4",
+												"logicalName": "",
+												"advertisedValue": "997",
+												"index": 2
+										},
+			  							{
+												"baseType": 0,
+												"hardwareId": "YD128X64-10CC92.anButton3",
+												"logicalName": "",
+												"advertisedValue": "997",
+												"index": 3
+										},
+			  							{
+												"baseType": 0,
+												"hardwareId": "YD128X64-10CC92.anButton2",
+												"logicalName": "",
+												"advertisedValue": "997",
+												"index": 4
+										},
+										{
+												"baseType": 0,
+												"hardwareId": "YD128X64-10CC92.anButton1",
+												"logicalName": "",
+												"advertisedValue": "997",
+												"index": 5
+										}
+								],
+								"Display": [
+			  							{
+												"baseType": 0,
+												"hardwareId": "YD128X64-10CC92.display",
+												"logicalName": "",
+												"advertisedValue": "",
+												"index": 7
+										}
+								],
+								"ColorLedCluster": [
+			  							{
+												"baseType": 0,
+												"hardwareId": "YRGBLED2-1082CB.colorLedCluster",
+												"logicalName": "",
+												"advertisedValue": "",
+												"index": 1
+										}
+								],
+								"ColorLed": [
+			  							{
+												"baseType": 0,
+												"hardwareId": "YRGBLED2-1082CB.colorLed2",
+												"logicalName": "",
+												"advertisedValue": "00000c",
+												"index": 2
+										},
+			  							{
+												"baseType": 0,
+												"hardwareId": "YRGBLED2-1082CB.colorLed1",
+												"logicalName": "",
+												"advertisedValue": "ffffff",
+												"index": 3
+										}
+								]
+					}
+			}
+	}
+
+]

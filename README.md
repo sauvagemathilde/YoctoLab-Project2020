@@ -23,9 +23,9 @@ To be able to access and/or modify the lab, you must have PHP installed on your 
 ### 2.c   Access to the web page
 To access the web page of the lan :
 - download the project on your computer;
-- on a terminal : go to the **Lab** folder with the command cd and type the command **php -S localhost:8000**;
+- on a terminal : go to the **Lab** folder with the command ```cd YoctoLab-Project2020```;
+- then type the command ```php -S localhost:8000```;
 - in the search bar of a browser: type **localhost:8000**.
-
 
 ## 3.  Presentation of the two Maven Projects
 
@@ -41,6 +41,8 @@ These two projects use the following libraries, which will need to be added to t
 The YoctoPuce libraries needed here are available in the **TPYoctoLibraries** folder.
 
 The **TPYoctoResources** folder contains the editable resources (images, screenshots, schemes, .docx files, etc.) that are used in the YoctoPuce discovery lab.
+
+In each folder **visualizeData** and **analyzeData** of this project you can find a README.md file which explains how to run the two Maven Projects.
 
 ## 4.  Maven Project : visualizeData
 
